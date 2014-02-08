@@ -16,7 +16,7 @@
 !/media/
 
 !/lpeg.*
-!/lpeg_.*
+!/lpeg_*.*
 !/lpeg/
 !/lpeg/**
 !/bin/mingw32/clib/lpeg.*
