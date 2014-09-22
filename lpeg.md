@@ -5,7 +5,7 @@ tagline: parsing expression grammars
 
 ## `local lpeg = require'lpeg'`
 
-Roberto's [LPeg][lpeg doc] v0.10.
+Roberto's [LPeg][lpeg doc].
 
 ## `local re = require'lpeg.re'`
 
