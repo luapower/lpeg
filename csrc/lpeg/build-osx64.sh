@@ -1,1 +1,2 @@
-gcc -arch x86_64 -O2 *.c -shared -o ../../bin/osx64/clib/lpeg.so -I. -I../lua -undefined dynamic_lookup -ansi
+P=osx64 C="-arch x86_64" L="-arch x86_64 -undefined dynamic_lookup" \
+	D=lpeg.so A=liblpeg.a ./build.sh

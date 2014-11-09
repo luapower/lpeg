@@ -25,5 +25,11 @@
 !/bin/linux64/clib/lpeg.*
 !/bin/osx32/clib/lpeg.*
 !/bin/osx64/clib/lpeg.*
+!/bin/mingw32/lpeg.*
+!/bin/mingw64/lpeg.*
+!/bin/linux32/liblpeg.*
+!/bin/linux64/liblpeg.*
+!/bin/osx32/liblpeg.*
+!/bin/osx64/liblpeg.*
 !/csrc/lpeg/
 !/csrc/lpeg/**

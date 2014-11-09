@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc -fPIC *.c -shared -o ../../bin/linux64/clib/lpeg.so -I. -I../lua -ansi
+P=linux64 C=-fPIC L="-s -static-libgcc" D=lpeg.so A=liblpeg.a ./build.sh
