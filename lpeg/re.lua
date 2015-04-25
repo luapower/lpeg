@@ -254,6 +254,9 @@ local re = {
   updatelocale = updatelocale,
 }
 
-if version == "Lua 5.1" then _G.re = re end
+if version == "Lua 5.1" then
+  --I need this to work with strict.lua, sorry for breaking compatibility.
+  --_G.re = re
+end
 
 return re
