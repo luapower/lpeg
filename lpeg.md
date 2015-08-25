@@ -1,5 +1,4 @@
 ---
-project: lpeg
 tagline: parsing expression grammars
 ---
 
